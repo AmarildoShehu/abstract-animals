@@ -1,4 +1,4 @@
-public class Delfin extends Animal{
+public class Delfin extends Animal implements  Swimmer{
 
     @Override
     public void sound() {
@@ -8,5 +8,10 @@ public class Delfin extends Animal{
     @Override
     public void eat() {
         System.out.println("Fish");
+    }
+
+    @Override
+    public void swim(){
+        System.out.println("Sto nuotando");
     }
 }

@@ -1,4 +1,4 @@
-public class Eagle extends Animal{
+public class Eagle extends Animal implements Flying{
     @Override
     public void sound() {
         System.out.println("Screech");
@@ -9,4 +9,8 @@ public class Eagle extends Animal{
         System.out.println("Flesh");
     }
 
+    @Override
+    public void fly(){
+        System.out.println("Sto volando");
+    }
 }
