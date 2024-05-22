@@ -21,6 +21,8 @@ public class Main {
         delfin.sound();
         delfin.eat();
 
-
+        Util.makeFly((Flying) sparrow) ;
+        Util.makeFly((Flying) eagle);
+        Util.makeSwim((Swimmer) delfin);
     }
 }
